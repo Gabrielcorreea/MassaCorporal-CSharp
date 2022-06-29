@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.lblTitulo1 = new System.Windows.Forms.Label();
-            this.lblTitulo2 = new System.Windows.Forms.Label();
+            this.txtPeso = new System.Windows.Forms.TextBox();
+            this.txtAltura = new System.Windows.Forms.TextBox();
+            this.lblPeso = new System.Windows.Forms.Label();
+            this.lblAltura = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
-            this.lblTitulo3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblimc = new System.Windows.Forms.Label();
+            this.txtimc = new System.Windows.Forms.TextBox();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.txtResultado = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -49,101 +49,102 @@
             this.lblTitulo.Size = new System.Drawing.Size(147, 20);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "IMC CORPORAL";
-//            this.lblTitulo.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // txtPeso
             // 
-            this.textBox1.Location = new System.Drawing.Point(176, 126);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(60, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtPeso.Location = new System.Drawing.Point(176, 126);
+            this.txtPeso.Name = "txtPeso";
+            this.txtPeso.Size = new System.Drawing.Size(60, 20);
+            this.txtPeso.TabIndex = 1;
             // 
-            // textBox2
+            // txtAltura
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 170);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(60, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtAltura.Location = new System.Drawing.Point(176, 170);
+            this.txtAltura.Name = "txtAltura";
+            this.txtAltura.Size = new System.Drawing.Size(60, 20);
+            this.txtAltura.TabIndex = 2;
             // 
-            // lblTitulo1
+            // lblPeso
             // 
-            this.lblTitulo1.AutoSize = true;
-            this.lblTitulo1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo1.Location = new System.Drawing.Point(90, 126);
-            this.lblTitulo1.Name = "lblTitulo1";
-            this.lblTitulo1.Size = new System.Drawing.Size(42, 16);
-            this.lblTitulo1.TabIndex = 3;
-            this.lblTitulo1.Text = "Peso";
+            this.lblPeso.AutoSize = true;
+            this.lblPeso.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeso.Location = new System.Drawing.Point(90, 126);
+            this.lblPeso.Name = "lblPeso";
+            this.lblPeso.Size = new System.Drawing.Size(42, 16);
+            this.lblPeso.TabIndex = 3;
+            this.lblPeso.Text = "Peso";
             // 
-            // lblTitulo2
+            // lblAltura
             // 
-            this.lblTitulo2.AutoSize = true;
-            this.lblTitulo2.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo2.Location = new System.Drawing.Point(90, 174);
-            this.lblTitulo2.Name = "lblTitulo2";
-            this.lblTitulo2.Size = new System.Drawing.Size(52, 16);
-            this.lblTitulo2.TabIndex = 4;
-            this.lblTitulo2.Text = "Altura";
+            this.lblAltura.AutoSize = true;
+            this.lblAltura.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAltura.Location = new System.Drawing.Point(90, 174);
+            this.lblAltura.Name = "lblAltura";
+            this.lblAltura.Size = new System.Drawing.Size(52, 16);
+            this.lblAltura.TabIndex = 4;
+            this.lblAltura.Text = "Altura";
             // 
             // btnCalcular
             // 
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(113, 208);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(103, 33);
             this.btnCalcular.TabIndex = 5;
             this.btnCalcular.Text = "CALCULAR ";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // lblTitulo3
+            // lblimc
             // 
-            this.lblTitulo3.AutoSize = true;
-            this.lblTitulo3.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo3.Location = new System.Drawing.Point(90, 265);
-            this.lblTitulo3.Name = "lblTitulo3";
-            this.lblTitulo3.Size = new System.Drawing.Size(35, 16);
-            this.lblTitulo3.TabIndex = 6;
-            this.lblTitulo3.Text = "IMC";
+            this.lblimc.AutoSize = true;
+            this.lblimc.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblimc.Location = new System.Drawing.Point(90, 265);
+            this.lblimc.Name = "lblimc";
+            this.lblimc.Size = new System.Drawing.Size(35, 16);
+            this.lblimc.TabIndex = 6;
+            this.lblimc.Text = "IMC";
             // 
-            // textBox3
+            // txtimc
             // 
-            this.textBox3.Location = new System.Drawing.Point(176, 264);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(60, 20);
-            this.textBox3.TabIndex = 7;
+            this.txtimc.Location = new System.Drawing.Point(176, 264);
+            this.txtimc.Name = "txtimc";
+            this.txtimc.Size = new System.Drawing.Size(60, 20);
+            this.txtimc.TabIndex = 7;
             // 
-            // label1
+            // lblResultado
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(90, 314);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 16);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Resultado";
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(90, 314);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(80, 16);
+            this.lblResultado.TabIndex = 9;
+            this.lblResultado.Text = "Resultado";
             // 
-            // textBox4
+            // txtResultado
             // 
-            this.textBox4.Location = new System.Drawing.Point(176, 310);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(60, 20);
-            this.textBox4.TabIndex = 10;
+            this.txtResultado.Location = new System.Drawing.Point(176, 310);
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(60, 20);
+            this.txtResultado.TabIndex = 10;
             // 
-            // Form1
+            // txtNumero1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.lblTitulo3);
+            this.ClientSize = new System.Drawing.Size(312, 450);
+            this.Controls.Add(this.txtResultado);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.txtimc);
+            this.Controls.Add(this.lblimc);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.lblTitulo2);
-            this.Controls.Add(this.lblTitulo1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblAltura);
+            this.Controls.Add(this.lblPeso);
+            this.Controls.Add(this.txtAltura);
+            this.Controls.Add(this.txtPeso);
             this.Controls.Add(this.lblTitulo);
-            this.Name = "Form1";
+            this.Name = "txtNumero1";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -153,15 +154,15 @@
         #endregion
 
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label lblTitulo1;
-        private System.Windows.Forms.Label lblTitulo2;
+        private System.Windows.Forms.TextBox txtPeso;
+        private System.Windows.Forms.TextBox txtAltura;
+        private System.Windows.Forms.Label lblPeso;
+        private System.Windows.Forms.Label lblAltura;
         private System.Windows.Forms.Button btnCalcular;
-        private System.Windows.Forms.Label lblTitulo3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label lblimc;
+        private System.Windows.Forms.TextBox txtimc;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.TextBox txtResultado;
     }
 }
 

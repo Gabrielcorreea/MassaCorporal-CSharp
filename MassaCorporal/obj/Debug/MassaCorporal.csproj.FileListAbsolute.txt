@@ -1,0 +1,11 @@
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.csproj.AssemblyReference.cache
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.csproj.SuggestedBindingRedirects.cache
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.txtNumero1.resources
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.Properties.Resources.resources
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.csproj.GenerateResource.cache
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\bin\Debug\MassaCorporal.exe.config
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\bin\Debug\MassaCorporal.exe
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\bin\Debug\MassaCorporal.pdb
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.exe
+C:\Users\gabriel.acorrea1\Documents\uc9\MassaCorporal\MassaCorporal\obj\Debug\MassaCorporal.pdb
